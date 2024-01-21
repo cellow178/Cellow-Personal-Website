@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/*general*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+/*Navigasi*/
+#header-nav,
+.nav-links {
+  display: flex;
+}
+
+#header-nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 124px;
+}
+
+.nav-links {
+  gap: 32px;
+  list-style: none;
+  font-size: 24px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 16px;
+  text-decoration-color: rgb(181,181,181) ;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+/*section*/
+section {
+  margin: 0 160px;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+/*profil*/
+#profil {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.profil_pic-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.profil_cello {
+  padding: 10px;
+  border-radius: 50%;
+  border: rgb(63, 63, 63) 3px solid;
+}
+
+.quote {
+  padding: 10px 30px;
+  margin: 13px 0;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/*profil text*/
+.profil_text {
+  height: 133.6px;
+  width: 415px;
+  align-self: center;
+  text-align: center;
+}
+
+.profil_text p {
+  font-weight: 600;
+}
+
+.section_text_p1 {
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+  text-align: center;
+}
+
+.section_text_p2 {
+  font-size: 20px;
+}
+
+.section_text_p3 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/*tentang*/
+#tentang {
+  margin-top: 179px;
+}
+
+.tentang_heading {
+  text-align: center;
+}
+
+/*informasi*/
+.tentang_informasi {
+  margin: 26px 85px;
+  padding: 35px 0;
+  border: rgb(53, 53, 53) 2.5px solid;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.tentang_informasi_umum {
+  list-style: none;
+}
+
+.tentang_informasi_keterampilan {
+  padding-left: 40px;
+  list-style-type: circle;
+}
+
+/*project*/
+.project-container-1 {
+  margin-top: 40px;
+  margin-bottom: 78px;
+}
+
+.project-container-2 {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.project-detail {
+  background-color: rgb(250, 250, 250);
+  padding: 40px 35px;
+  border-radius: 52px;
+  border: rgb(53, 53, 53) 1.6px solid;
+  text-align: center;
+}
+
+.project-img {
+  margin-bottom: 15px;
+  width: 100%;
+  border: rgb(53, 53, 53) 1.6px solid;
+  border-radius: 32px;
+}
+
+.project-title-poster {
+  margin-top: 7px;
+}
+
+.btn-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn {
+  background-color: rgb(250, 250, 250);
+  border-radius: 32px;
+  font-weight: 600;
+  padding: 16px;
+  width: 128px;
+  transition: all 300ms ease;
+  border: rgb(53, 53, 53) 1.6px solid;
+}
+
+.btn-download {
+  background-color: rgb(250, 250, 250);
+  border-radius: 32px;
+  font-weight: 600;
+  padding: 16px;
+  width: 272px;
+  transition: all 300ms ease;
+  border: rgb(53, 53, 53) 1.6px solid;
+}
+
+.btn:hover,
+.btn-download:hover {
+  background-color: rgb(53, 53, 53);
+  color: white;
+}
+
+/*sosial*/
+.sosial-container{
+  margin: 70px 0;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 15px;
+}
+
+.sosial-list {
+  text-align: center;
+}
+
+.sosial-logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+/*download poster*/
+.download-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.download-list {
+  background-color: rgb(250, 250, 250);
+  padding: 30px;
+  border: rgb(53, 53, 53) 1.6px solid;
+  border-radius: 46px;
+  text-align: center;
+}
+
+.project-preview {
+  width: 52%;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+/*footer*/
+#footer {
+  margin-top: 52px;
+  text-align: center;
+}
+
+.footer_nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 24px;
+}
+
+.editor {
+  margin: 25px;
+}
