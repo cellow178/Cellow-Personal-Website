@@ -137,7 +137,7 @@ section {
 /*informasi*/
 .tentang_informasi {
   margin: 26px 85px;
-  padding: 35px 0;
+  padding: 30px;
   border: rgb(53, 53, 53) 2.5px solid;
   border-radius: 32px;
   display: flex;
